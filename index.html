@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo-class Challenge</title>
+    <style>
+        body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+    
+            header {
+                background-color: pink;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+    
+            main {
+                padding: 20px;
+                text-align: center;
+            }
+    
+            button, input, a {
+                display: block;
+                margin: 10px auto;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                text-decoration: none;
+                color: white;
+                font-size: 16px;
+                transition: background-color 0.3s, color 0.3s;
+                border-radius: 5px;
+                width: 200px;
+                max-width: 100%;
+            }
+    
+            button {
+                background: linear-gradient(to right, pink, #45a049);
+            }
+    
+            button:hover {
+                background: linear-gradient(to right, pink, #4CAF50);
+            }
+    
+            input {
+                background-color: #fff;
+                border: 1px solid #ccc;
+                transition: border-color 0.3s;
+            }
+    
+            input:focus {
+                border-color: #007bff;
+            }
+    
+            a {
+                background-color: pink;
+            }
+    
+            a:hover {
+                background-color: #0056b3;
+            }
+    </style>
+    <link rel="stylesheet" href="challenge.css">
+</head>
+<center>
+<body>
+    <header>
+         
+        <h1>Welcome to the CSS Pseudo-class Challenge!</h1>
+    </header>
+    <main>
+        <br>
+        <button>Click Me!</button>
+        <br>
+        <br>
+        
+        <input type="text" placeholder="Enter your name">
+        <br>
+        <br>
+        <a href="#">Visit our website</a>
+    </main>\
+</body>
+</center>
+</html>
